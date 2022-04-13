@@ -1,18 +1,95 @@
 *{padding: 0px;
     
 margin: 0Px;}
+
+/*LOGIN*/
+
+body{background-color:lightgreen;}
+.log1
+{
+    
+    border: 2px solid red;
+    background-color: beige;
+    height: 30em;
+    width: 20em;
+    margin-top: 5%;
+    margin-left: 40%;
+    padding: 50px;
+    background-color: rgb(148, 177, 216);
+}
+
+.log1 h2
+{
+    text-align: center;
+}
+.log1 input
+{
+    height: 2.5em;
+    width: 100%;
+}
+#button
+{
+    margin-left: 15%;
+    width: 70%;
+    height: 2.8em;
+    color: white;
+    background-color: blue;
+}
+
+
 .mymargin{
     margin-top: 30px;
     margin: 25px;}
     .login{
         background-color: rgb(53, 101, 190);
         background-size: cover;
+    } 
+    #navbarText{
+        color: white;
     }
 .sigin{ 
     float: center;
     background-size: cover;
 background-color: rgb(100, 128, 196);}
 body{background-size: cover;}
+
+
+
+/*sigin up page*/
+.sign
+{
+    
+    border: 2px solid red;
+    background-color: beige;
+    height: 37em;
+    width: 28em;
+    margin-top: 3%;
+    margin-left: 36%;
+    padding: 45px;
+    background-color: rgb(48, 166, 224);
+}
+
+.sign h2
+{
+    text-align: center;
+}
+.sign input
+{
+    height: 2.5em;
+    width: 100%;
+}
+#button
+{
+    margin-left: 15%;
+    width: 70%;
+    height: 2.8em;
+    color: white;
+    background-color: blue;
+}
+
+
+
+
 
 
 /* HOME PAGE START */
@@ -33,7 +110,57 @@ body{background-size: cover;}
     background-color:red;
   }
 
+
+
   
+  
+  .container {
+      padding: 110px;
+  }
+  ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+      color: #ffffff!important;
+      opacity: 1; /* Firefox */
+      font-size:18px!important;
+  }
+  .form-login {
+      background-color: rgba(0,0,0,0.55);
+      padding-top: 10px;
+      padding-bottom: 20px;
+      padding-left: 20px;
+      padding-right: 20px;
+      border-radius: 15px;
+      border-color:#d2d2d2;
+      border-width: 5px;
+      color:white;
+      box-shadow:0 1px 0 #cfcfcf;
+  }
+  .form-control{
+      background:transparent!important;
+      color:white!important;
+      font-size: 18px!important;
+  }
+  h1{
+      color:white!important;
+  }
+  h4 { 
+   border:0 solid #fff; 
+   border-bottom-width:1px;
+   padding-bottom:10px;
+   text-align: center;
+  }
+  
+  .form-control {
+      border-radius: 10px;
+  }
+  .text-white{
+      color: white!important;
+  }
+  .wrapper {
+      text-align: center;
+  }
+  .footer p{
+      font-size: 18px;
+  }
   
   span.carousel-control-prev-icon {
    position: relative;
@@ -53,7 +180,7 @@ body{background-size: cover;}
 /* TVM /
 
 /* card details start  */
-@import url('https://fonts.googleapis.com/css?family=Raleway:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Roboto+Condensed:400,400i,700,700i');
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Roboto+Condensed:400,400i,700,700i'); */
 section{
     padding: 100px 0;
 }
@@ -180,3 +307,63 @@ a.btn-card {
 
 
 
+/*new login form*/
+/*author:starttemplate*/
+/*reference site : starttemplate.com*/
+/* body {
+    background-image:url('https://i.redd.it/o8dlfk93azs31.jpg');
+    background-position:center;
+    background-size:cover;
+    
+    -webkit-font-smoothing: antialiased;
+    font: normal 14px Roboto,arial,sans-serif;
+    font-family: 'Dancing Script', cursive!important;
+  } */
+  
+  .container {
+      padding: 110px;
+  }
+  ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+      color: #ffffff!important;
+      opacity: 1; /* Firefox */
+      font-size:18px!important;
+  }
+  .form-login {
+      background-color: rgba(0,0,0,0.55);
+      padding-top: 10px;
+      padding-bottom: 20px;
+      padding-left: 20px;
+      padding-right: 20px;
+      border-radius: 15px;
+      border-color:#d2d2d2;
+      border-width: 5px;
+      color:white;
+      box-shadow:0 1px 0 #cfcfcf;
+  }
+  .form-control{
+      background:transparent!important;
+      color:white!important;
+      font-size: 18px!important;
+  }
+  h1{
+      color:white!important;
+  }
+  h4 { 
+   border:0 solid #fff; 
+   border-bottom-width:1px;
+   padding-bottom:10px;
+   text-align: center;
+  }
+  
+  .form-control {
+      border-radius: 10px;
+  }
+  .text-white{
+      color: white!important;
+  }
+  .wrapper {
+      text-align: center;
+  }
+  .footer p{
+      font-size: 18px;
+  }
